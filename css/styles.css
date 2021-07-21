@@ -1,1 +1,320 @@
-/* Your styles go here */
+
+html{
+    background-color: rgb(8, 42, 51)
+}
+body{
+    
+   
+    align-content: center;
+  
+}
+.navigation{
+    display: block; 
+    overflow: hidden;
+}
+.all-container section{
+    margin-left: 180px;
+    width: 1000px;
+    background-color: white;
+    
+   
+}
+section .nav1{
+    background-image: url("../images/background1.jpg");
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: unset;
+    font-family:Geneva, Tahoma, sans-serif;   
+    
+}
+
+nav ul{
+ display: flex; 
+ justify-content: flex-end;
+ justify-content: space-between 50px;
+ padding: 0;
+margin: 0;
+}
+nav ul li{
+    padding: 5px;
+    list-style: none;
+    border-right: 1px solid #bbb;
+    color:  #007397;
+}
+nav ul li:focus{
+    background-color:white;
+    color: #007397; 
+}
+nav ul li a:focus{
+    background-color:white;
+    color: #007397; 
+    padding: 5px;
+}
+section nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    padding: 5px;
+    list-style: none;
+    border-right: 1px solid #bbb;
+    background-color:white;
+    color: #007397;
+   
+}
+
+
+a{
+    height: 30px;
+}
+nav ul li a:hover{
+    background-color:white;
+    color: #007397;
+   
+}
+
+nav ul li a:active{
+    background-color: white;
+    color: black;
+}
+
+
+
+section img{
+    width: 150px;
+    height: 150px;
+}
+
+.logo{
+    
+    display: grid;
+    grid-template-areas:'header header';
+    grid-gap: 2px;
+    padding: 0;
+    margin: 0; 
+    border-right: 1px solid #007397;
+    
+
+}
+
+.title-header{
+    padding: 0;
+    text-align: center;
+    font: optional;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #007397;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* .welcoming-message{
+    font-size: 20px;
+    margin-top: 0px;
+} */
+
+.about-system{
+ 
+    background-image: url("../images/background1.jpg");     
+    margin-top: -15px;
+    color: white;
+    height: 200px;
+    
+}
+.system-about{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:black;
+    color: white;
+}
+
+.message{
+    padding: 0;
+    width: 800px;
+    text-align: center;
+    
+    word-spacing: 2px;
+    white-space: wrap;
+    line-height: 30px;
+    margin-left: 50px;
+
+}
+
+/* .security-cleanliness{
+    display: grid;
+    grid-template-areas:'header';
+    width: 10%;
+    padding: 0;
+    margin: 0; 
+} */
+
+.head-security{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+
+
+
+}
+.head-security1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    background-image: url("../images/background1.jpg");
+    color: white;   
+
+}
+
+.security{
+    margin-top: -15px;
+}
+.cleanliness{
+    margin-top: -15px;
+}
+
+
+table{
+    margin: 0;
+    padding: 0;
+}
+.infos{
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;  
+
+
+}
+
+.dasso-img, img {
+    width: 500px;
+    height: 300px;
+}
+
+.partners-class{
+    text-align: center;
+    justify-content: space-between 100px;
+    margin-top: -15px;
+
+    
+}
+
+.partners-class-login{
+    text-align: center;
+    justify-content: space-between 100px;
+    margin-top: -10px;
+
+    
+
+    
+}
+.logo-partner{
+    width: 100px;
+    height: 100px;
+}
+
+.footer-info{
+    width: 1000px;
+    color: black;
+    }
+
+.words-footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-image: url("../images/background1.jpg");
+    padding: 10px;
+    color: white;
+
+}
+
+table tr td h2{
+    text-decoration: underline;
+    font-style: oblique;
+    font-weight: normal;
+    font-size: 18px;
+
+}
+
+table tr td nav .bookmarks{
+    display: list-item ;
+    background: none;
+    padding: 0%;
+    height: 0%;
+    text-align: top;
+    margin-top: -70px;
+    list-style: none;
+    color: black;
+    }
+
+    table tr td nav .bookmarks a{
+        color: blue;
+    }
+    
+.read-more{
+    background-color: rgba(41, 41, 41, 0.726);
+    border-radius: 5px;
+    color: white;
+}
+.read-more1{
+    background-color: #3183FE;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px ;
+}
+
+.td-form{
+    
+    width: 333.3px;
+
+}
+
+/* security */
+
+.table-security-pay{
+    text-align: center;
+    width:600px;
+    margin-left: 200px;
+}
+
+/* login */
+form .form-1{
+    border: 1px black;
+}
+.login-form{
+  margin-left: 300px;
+}
+
+.login-form tr td{
+    text-align: left;
+    width:100px;
+}
+
+
+.login-form tr td .email,.password{
+    width:200px;
+    height: 20px;
+
+}
+
+.login-form tr td.submit{
+    text-align: right;
+}
+
+.login-form tr td.submit input{
+    width: inherit;
+    font-size: 15px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
